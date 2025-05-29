@@ -7,6 +7,6 @@ public class ProducerConsumerTest {
     void producerConsumerTest() throws InterruptedException {
         ProducerConsumerExample pc = new ProducerConsumerExample();
         pc.start();
-        Thread.sleep(20000);
+        Thread.sleep(20000); // Test thread to be suspended for 20 sec
     }
 }
